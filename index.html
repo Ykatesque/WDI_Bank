@@ -1,5 +1,7 @@
 <html>
 <head>
+
+
 	<title>WDI Bank</title>
 	 <link rel="stylesheet" href="css/style.css">
 	 <link rel="stylesheet" href="css/bootstrap.css">
@@ -11,13 +13,13 @@
 </head>
 <body>
 	<div class="container">
-	<h1>$ WDI Bank $</h1><p class ="lead"><em>"Dolla Dolla Bill, Ya'll" - Wutang Clan</em></p>
+	<h1>$ WDI Bank $</h1><p class ="lead"><em>"Dolla Dolla Bill, Ya'll" - Wutang Clan</em></p><div id ="warning"><em>Warning! Not enough Money in Account. Overdraft protetion is actvated.</em></div>
 	<div class ="account">
 		<h2>Checking</h2>
 		<h3>Balance:<p id="check_balance">1000</p></h3>
 		<form id="checking">
 		<input type="text" id="number"><br>
-		<button id="check_withdraw">withdraw</button> <button id="check_deposit">deposit</button>
+		<button id="check_withdraw" class ="btn-info btn">withdraw</button> <button id="check_deposit" class="btn-success btn">deposit</button>
 	</form>
 
 	</div>
@@ -27,7 +29,7 @@
 		<h3>Balance:<p id ="sav_balance">4000</p> </h3>
 			<form id="savings">
 			<input type="text" id="number2"><br>
-		<button id="sav_withdraw">withdraw</button> <button id="sav_deposit">deposit</button>
+		<button id="sav_withdraw" class ="btn-info btn">withdraw</button> <button id="sav_deposit" class="btn-success btn">deposit</button>
 	</form>
 	</div>
 </div>
