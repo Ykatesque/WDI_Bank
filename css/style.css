@@ -1,0 +1,20 @@
+body{
+	width: 800px;
+	margin:auto;
+	padding-top: 40px;
+	border: 2px solid black;
+	text-align: center;
+
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+.account{
+	display: inline-block;
+	border: 2px solid  black;
+	padding: 40px;
+}
