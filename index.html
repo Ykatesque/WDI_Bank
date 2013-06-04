@@ -2,17 +2,21 @@
 <head>
 	<title>WDI Bank</title>
 	 <link rel="stylesheet" href="css/style.css">
+	 <link rel="stylesheet" href="css/bootstrap.css">
+    
+      
       <script src="js/jquery-2.0.2.js"></script>
       <script src="js/script.js"></script>
+
 </head>
 <body>
-	
-	<h1>WDI Bank</h1>
+	<div class="container">
+	<h1>$ WDI Bank $</h1><p class ="lead"><em>"Dolla Dolla Bill, Ya'll" - Wutang Clan</em></p>
 	<div class ="account">
 		<h2>Checking</h2>
-		<h3>Balance:</h3><p id="check_balance">1000</p>
+		<h3>Balance:<p id="check_balance">1000</p></h3>
 		<form id="checking">
-		<input type="text" id="number">
+		<input type="text" id="number"><br>
 		<button id="check_withdraw">withdraw</button> <button id="check_deposit">deposit</button>
 	</form>
 
@@ -20,13 +24,13 @@
 
 	<div class ="account">
 		<h2>Savings</h2>
-		<h3>Balance:</h3><p id ="sav_balance">4000</p>
+		<h3>Balance:<p id ="sav_balance">4000</p> </h3>
 			<form id="savings">
-			<input type="text" id="number2">
+			<input type="text" id="number2"><br>
 		<button id="sav_withdraw">withdraw</button> <button id="sav_deposit">deposit</button>
 	</form>
 	</div>
-
+</div>
 
 </body>
 </html>
