@@ -47,8 +47,14 @@ padding-bottom: 20px;
 }
 
 #warning{
-	background-color: white;
-	opacity: .9;
+
 	color: red;
 	display: none;
+	padding: 20px;
+
+}
+
+#warning p {
+font-size: 18px;
+
 }

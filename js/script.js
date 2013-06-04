@@ -32,7 +32,7 @@ $(document).ready(function(){
 		 	}
 	  } 
 		else {
-	  	$(".container").css({"background": "rgba(255, 0, 0, 0.7)", "color": "black", });
+	  	
 
 $("#warning").css({"display": "block", });
 	  }
@@ -66,8 +66,7 @@ $("#sav_deposit").on("click", s_deposit);
  	  }
  	  else if (amount2 >= sav_balance)
 	 	{
-	 		$(".container").css({"background": "rgba(255, 0, 0, 0.7)", "color": "black", });
-
+	 		
 $("#warning").css({"display": "block", });
 	 	}	  
 	}
